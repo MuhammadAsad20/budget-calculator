@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="range">
+                <div class="fields">
+                    <h2>Budget</h2>
+                    <input id="budget" class="setInput" type="text" placeholder="Enter Total Amount">
+                    <button id="set" class="setBtn">Set Budget</button>
+                </div>
+                <div class="fields">
+                    <h2>Expenses</h2>
+                    <input id="title" class="setInput" type="text" placeholder="Enter Title of Product">
+                    <input id="expense" class="setInput" type="text" placeholder="Enter Cost of Product">
+                    <button id="check" class="setBtn">Check Amount</button>
+                </div>
+            </div>
+            <div id="total">
+                <div id="table">
+                    <div class="tableRows">
+                        <div class="tableContent">
+                            <h2>Total Budget</h2>
+                        </div>
+                        <div class="tableContent">
+                            <h2>Expenses</h2>
+                        </div>
+                        <div class="tableContent">
+                            <h2>Balance</h2>
+                        </div>
+                    </div>
+                    <div class="tableRows">
+                        <div id="totalBud" class="tableContent"></div>
+                        <div id="totalexp" class="tableContent"></div>
+                        <div id="balance" class="tableContent"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="item">
+               <h2>Expense List</h2> 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
